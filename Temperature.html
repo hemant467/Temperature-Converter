@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Wizard</title>
+    <meta name="google-site-verification" content="iNzSj2wvdEOVu1PtrK5FfEiu_teOG2LQn5i3kg-xozQ" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">Temperature 🌡️ Wizard </h1>
+		<h1 class="heading">A 🌡️ Temperature 🌡️ Converter </h1>
+		<h2 class="sub-heading">Enter the 🌡️ value in any one box then press ENTER </h2>
+        <div class="temp-container">
+            <label for="Celcius">Celcius °C 🌡️</label>
+            <input 
+            onchange ="computeTemp(event)"
+            type="number" 
+            name="Celcius" 
+            id="Celcius" 
+            class="Celcius" 
+            placeholder="Enter Temperature in °C 🌡️"/>    
+        </div>
+        <div class="temp-container">
+            <label for="fahre">Fahrenheit °F 🌡️</label>
+            <input 
+            onchange="computeTemp(event)"
+            type="number" 
+            name="Fahrenheit" 
+            id="Fahrenheit" 
+            class="Fahrenheit" 
+            placeholder="Enter Temperature in °F 🌡️"/>    
+        </div>
+        <div class="temp-container">
+            <label for="Kelvin">Kelvin K 🌡️</label>
+            <input 
+            onchange="computeTemp(event)"
+            type="number" 
+            name="Kelvin" 
+            id="Kelvin" 
+            class="Kelvin" 
+            placeholder="Enter Temperature in K 🌡️"/>    
+        </div>
+		<h2 class="sub-heading">Designed & Developed by ❤️‍🔥 Hemant Katta ⚔️  </h2>
+    </div>
+    
+    
+    <script src="./script.js"></script>
+</body>
+</html>
